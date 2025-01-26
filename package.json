@@ -1,0 +1,21 @@
+{
+  "name": "baseai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "baseai": "baseai"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@baseai/core": "^0.9.42",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "baseai": "^0.9.42"
+  }
+}
