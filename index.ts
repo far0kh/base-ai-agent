@@ -8,7 +8,10 @@ const pipe = new Pipe(pipeSummarizer());
 
 // const userMsg = `How you can help me build a resume?`;
 // const userMsg = `What's the weather in San Francisco?`;
-const userMsg = `What's the weather in San Francisco and what's the price of Bitcoin?`;
+// const userMsg = `What's the price of Bitcoin?`;
+// const userMsg = `how disel motors work?`;
+// const userMsg = `What is Bitcoin mining?`;
+const userMsg = `What is a Smart Contract, when bitcoin was created and what is the price of Bitcoin?`;
 
 async function main() {
   const { stream } = await pipe.run({
